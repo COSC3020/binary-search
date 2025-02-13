@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: sudo apt-get update
       - run: sudo apt-get install -y eslint
-      - run: eslint code.js
+      - run: eslint -c eslint.config.mjs code.js
